@@ -7,8 +7,8 @@ depend: [Neptune]
 
 commands:
   elo:
-    description: Kelola Elo pemain (add/remove/set)
-    usage: /elo <add|remove|set> <player> <jumlah>
+    description: Kelola Elo pemain per-kit (add/remove/set)
+    usage: /elo <add|remove|set> <player> <kit> <jumlah>
     permission: neptune.elo.admin
     permission-message: "§cKamu tidak punya izin untuk perintah ini."
 
